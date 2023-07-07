@@ -1,0 +1,228 @@
+.header{
+    width:100%;
+    height:100px;
+}
+
+.header .header_left{
+    float:left;
+    width:620px;
+    height:100px;
+    margin-left:150px;
+    background: url(../img/logo2.png) no-repeat left center;
+    padding-left: 420px;
+    line-height: 100px;
+    color:#0c82dc;
+    font-size:20px;
+    font-weight:700;
+}
+
+.header .header_right{
+    float:right;
+    width: 200px;
+    height:100px;
+    margin-right: 210px;
+    line-height: 100px;
+}
+
+.header .header_right span a{
+    font-size:16px;
+    color:#000000;
+}
+
+.header .header_right span a:hover{
+    color:#0c82dc;
+}
+
+.header .header_right span:nth-child(2){
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+.main{
+    position: relative;
+    width:100%;
+    height:629px;
+    background: url(../img/login-bg.jpg) no-repeat center bottom;
+    background-size:100% 629px;
+}
+
+.main .form{
+    position: absolute;
+    top:115px;
+    right:416px;
+    width:339px;
+    height:339px;
+    background: #fff;
+}
+
+.main .form .form_hd{
+    width:339px;
+    height:75px;
+    line-height: 75px;
+    padding-left:35px;
+}
+
+.main .form .form_hd a{
+    font-weight: 500;
+    color:#686868;
+    font-size:14px;
+}
+
+.main .form .form_hd a:hover{
+    color:#0c82dc;
+}
+
+.main .form .form_hd a:nth-child(1){
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.main .form .form_hd .logoa{
+    font-size:18px;
+    font-weight: 700;
+    color:#000;
+}
+
+#logo1{
+    display: block;
+}
+
+#logo2{
+    display: none;
+}
+
+.main .form .form_bd{
+    width:269px;
+    height:264px;
+    margin: 0 auto;
+}
+
+.main .form .form_bd form{
+    width: 269px;
+    height:157px;
+}
+
+.main .form .form_bd form .text{
+    width:269px;
+    height:36px;
+    border:#ececec 1px solid;
+    margin-bottom: 17px;
+    padding-left: 45px;
+    background: url(../img/login_user.png)no-repeat 8px 10px;
+}
+
+.main .form .form_bd form .password{
+    width:269px;
+    height:36px;
+    border:#ececec 1px solid;
+    margin-bottom: 17px;
+    padding-left: 45px;
+    background: url(../img/login_password.png)no-repeat 8px 10px;
+}
+
+.main .form .form_bd form .submit{
+    width:269px;
+    height:36px;
+    background: #0c82dc;
+    margin-bottom: 17px;
+    color:#fff;
+    border-radius: 5px;
+}
+
+.main .form .more{
+    width:269px;
+    height:80px;
+    margin: 0 auto;
+}
+
+.main .form .more p{
+    width: 269px;
+    height: 26px;
+    line-height: 26px;
+}
+
+.main .form .more p span{
+    float: left;
+    color: #676a6c;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.main .form .more p em{
+    float: right;
+}
+
+.main .form .more p em a{
+    color: #0c82dc;
+    font-size: 12px;
+}
+
+.main .form .more .way{
+    width: 269px;
+    height: 34px;
+    margin-top: 14px;
+}
+
+.main .form .more .way .wechat{
+    width:34px;
+    height:34px;
+    margin-left: 80px;
+    border-radius: 50%;
+}
+
+.main .form .more .way .wechat a{
+    display: block;
+    width:34px;
+    height:34px;
+    background: #50b674 url(../img/u5.png) no-repeat center;
+    background-size: 36px 36px;
+    border-radius: 50%;
+}
+
+.tishi{
+    width: 100%;
+    height:70px;
+    margin-top: 30px;
+}
+
+.tishi .tishi_content{
+    width: 440px;
+    height:70px;
+    margin-left: 191px;
+}
+
+.tishi .tishi_content .tishi_content_bg{
+    float: left;
+    width: 70px;
+    height: 70px;
+    background: url(../img/tishi.png) no-repeat;
+    background-size: cover;
+}
+
+.tishi .tishi_content .tishi_content_font{
+    float: left;
+    width:340px;
+    height:70px;
+    margin-left: 10px;
+}
+
+.tishi .tishi_content .tishi_content_font p{
+    color:#5a5a5a;
+    font-size:12px;
+    margin-top: 10px;
+}
+
+.footer{
+    width: 100%;
+    height: 20px;
+    margin-top: 45px;
+}
+
+.footer p{
+    width: 325px;
+    height: 20px;
+    margin: 0 auto;
+    color:#000;
+    font-size: 14px;
+    line-height: 20px;
+}

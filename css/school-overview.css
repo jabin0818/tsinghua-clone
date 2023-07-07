@@ -1,0 +1,240 @@
+.img_text{
+    width:100%;
+    height:453px;
+}
+
+.img_text .img_text_left{
+    float:left;
+    width:50%;
+    height:453px;
+    background:#045093;
+
+}
+
+.img_text .img_text_left .img_text_left_center{
+    width: 837px;
+    height: 454px;
+    margin:0 auto;
+    margin-top: 70px;
+}
+
+.img_text .img_text_left .img_text_left_center h1{
+    font-size: 24px;
+    color:#fff;
+    margin:0 auto;
+    text-align: center;
+    margin-bottom:32px;
+}
+
+.img_text .img_text_left .img_text_left_center p{
+    color:#fff;
+    font-size:14px;
+    text-indent:2em;
+}
+.img_text .img_text_right{
+    position: relative;
+    float:right;
+    width:50%;
+    height:453px;
+    overflow: hidden;
+}
+
+.img_text .img_text_right img{
+    position:absolute;
+    top: 0;
+    left: 0;
+    height:453px;
+}
+.introduce1{
+    width: 100%;
+    height:500px;
+    background: #eeeeee;
+    overflow: hidden;
+}
+
+.introduce1 .centerbox{
+    position: relative;
+}
+
+.introduce1 .centerbox .centerbox_lit{
+    position: relative;
+    width:946px;
+    height:425px;
+    margin:0 auto;
+    margin-top:75px;
+    z-index: 10;
+}
+
+.introduce1 .centerbox .centerbox_lit h1{
+    font-size: 24px;
+    color:#0c82dc;
+    margin:0 auto;
+    text-align: center;
+    margin-bottom:32px;
+}
+
+.introduce1 .centerbox .centerbox_lit p{
+    color:#333;
+    font-size:16px;
+    text-indent:2em;
+    line-height:32px;
+}
+
+.introduce1 .centerbox .centerbox_bg{
+    position:absolute;
+    top:50px;
+    left:0;
+    width:1200px;
+    height:400px;
+    z-index: 0;
+    opacity: 0.08;
+    overflow: hidden;
+}
+
+/* .introduce1 .centerbox .centerbox_bg img:nth-child(1){
+    position: absolute;
+    top:6px;
+    left:26px;
+}
+
+.introduce1 .centerbox .centerbox_bg img:nth-child(2){
+    position: absolute;
+    top:-4px;
+    left:1008px;
+}
+
+.introduce1 .centerbox .centerbox_bg img:nth-child(3){
+    position: absolute;
+    top:147px;
+    left:22px;
+}
+
+.introduce1 .centerbox .centerbox_bg img:nth-child(4){
+    position: absolute;
+    top:148px;
+    left:1001px;
+} */
+
+.introduce1 .centerbox .centerbox_bg img:nth-child(1){
+    position: absolute;
+    top:59%;
+    left:47%;
+    transform: translate(-50%,-50%);
+    opacity: 1;
+}
+
+.introduce2{
+    width: 100%;
+    height:500px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.introduce2 .centerbox_lit2{
+    width:946px;
+    height:425px;
+    margin:0 auto;
+    margin-top:75px;
+}
+
+.introduce2 .centerbox_lit2 h1{
+    font-size: 24px;
+    color:#0c82dc;
+    margin:0 auto;
+    text-align: center;
+    margin-bottom:32px;
+}
+
+.introduce2 .centerbox_lit2 p{
+    color:#000;
+    font-size:16px;
+    text-indent:2em;
+    line-height:32px;
+}
+
+.introduce3{
+    background: #eeeeee;
+}
+
+.introduce3 .centerbox_lit3{
+    position: relative;
+    z-index: 10;
+}
+
+.introduce3 .centerbox_lit3 .centerbox_lit3_bg{
+    position:absolute;
+    top:7px;
+    left: 0px;
+    width:946px;
+    height:425px;
+    margin:0 auto;
+    background: url(../img/xiaomen2.png) no-repeat center bottom;
+    z-index: -1;
+    opacity:0.24;
+}
+
+.introduce4{
+    width:100%;
+    height:596px;
+    background: url(../img/bg5.png) no-repeat center;
+    background-size:cover;
+    overflow: hidden;
+}
+
+.introduce4 .centerbox_lit4{
+    width:946px;
+    height:455px;
+    margin:0 auto;
+    margin-top:144px;
+}
+
+.introduce4 .centerbox_lit4 h1{
+    font-size: 24px;
+    color:#fff;
+    margin:0 auto;
+    text-align: center;
+    margin-bottom:32px;
+}
+
+.introduce4 .centerbox_lit4 p{
+    color:#fff;
+    font-size:16px;
+    text-indent:2em;
+    line-height:32px;
+}
+
+.introduce5{
+    width:100%;
+    height:480px;
+    overflow: hidden;
+    background:url(../img/bg6.png) no-repeat center;
+    background-size: cover;
+}
+
+.introduce5 .centerbox_lit5{
+    width:946px;
+    height:385px;
+    margin:0 auto;
+    margin-top:98px;
+}
+
+.introduce5 .centerbox_lit5 h1{
+    margin:0 auto;
+    text-align: center;
+    margin-bottom:40px;
+}
+
+.introduce5 .centerbox_lit5 p{
+    color:#333;
+    font-size:16px;
+    text-indent:2em;
+    line-height:32px;
+}
+
+.footer{
+	position:relative;
+    top:0;
+	width:100%;
+	height:637px;
+}
+
