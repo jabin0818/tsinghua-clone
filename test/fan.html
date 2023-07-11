@@ -1,53 +1,59 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<style>
-	body{
-	
-	}
-	.box{
-		position:relative;
-		width:300px;
-		height:300px;
-		margin:100px auto;
-		border-radius:50%;
-		transform-style:preserve-3d;
-		transition:all 0.5s;
-	}
-	.box:hover{
-		transform:rotateY(-180deg);
-	}
-		
-	.qian,.hou{
-		position:absolute;
-		top:0;
-		left:0;
-		width:100%;
-		height:100%;
-		border-radius:50%;
-		font-size:40px;
-		color:#FFF;
-		text-align:center;
-		line-height:300px;
-	}
-	.qian{
-		background:#39F;
-		z-index:1;
-	}
-	.hou{
-		background:#F90;
-		transform:rotateY(180deg);
-	}
-		
-</style>
-<title>图标翻转</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<style>
+		body {}
+
+		.box {
+			position: relative;
+			width: 300px;
+			height: 300px;
+			margin: 100px auto;
+			border-radius: 50%;
+			transform-style: preserve-3d;
+			transition: all 0.5s;
+		}
+
+		.box:hover {
+			transform: rotateY(-180deg);
+		}
+
+		.qian,
+		.hou {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			border-radius: 50%;
+			font-size: 40px;
+			color: #FFF;
+			text-align: center;
+			line-height: 300px;
+		}
+
+		.qian {
+			background: #39F;
+			z-index: 1;
+			backface-visibility: hidden;
+		}
+
+		.hou {
+			background: #F90;
+			transform: rotateY(180deg);
+		}
+	</style>
+	<title>图标翻转</title>
 </head>
 
 <body>
 	<div class="box">
 		<div class="qian">李健</div>
-        <div class="hou">丽江</div>
+		<div class="hou">丽江</div>
 	</div>
 </body>
+
 </html>

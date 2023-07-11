@@ -252,19 +252,20 @@
 /*footer模块开始*/
 .footer{
 	position:relative;
-	top:209px;
+	top:100px;
 	width:100%;
 	height:637px;
 }
 
 .footer .footer1{
+	position: relative;
+	top: 100px;
 	width:100%;
 	height:402px;
-
 }
 
 .footer .footer1 p{
-	margin:110px 0 0 268px;
+	margin:0 0 0 120px;
 	color:#000;
 	font-size:32px;
 }
@@ -272,7 +273,7 @@
 .footer .footer1 ul{
 	width:790px;
 	height:220px;
-	margin:19px 0 0 268px;
+	margin:19px 0 0 120px;
 }
 
 .footer .footer1 ul li{
@@ -302,11 +303,11 @@
 }
 	
 .footer .footer2 .footer2_right{
-	position:relative;
-	float:right;
-	width:1725px;
-	height:235px;
-	background:#0c82dc;
+	position: relative;
+	float: right;
+	width: 1442px;
+	height: 240px;
+	background: #0c82dc;
 }
 
 .footer .footer2 .footer2_right::before{
@@ -316,12 +317,12 @@
 	content:"";
 	display:block;
 	width:48px;
-	height:193px;
+	height:198px;
 	background:#c6cfd7;
 }
 
 .footer .footer2 .footer2_right .footer2_right_top{
-	width:1400px;
+	width:calc(100% - 238px);
 	height:120px;
 	margin:47px 0 0 138px;
 	border-bottom:rgba(255,255,255,0.27) 1px solid;
@@ -360,7 +361,7 @@
 }
 
 .footer .footer2 .footer2_right .footer2_right_bot{
-	width:1400px;
+	width:calc(100% - 238px);
 	margin:14px 0 0 138px;
 	
 }
@@ -381,7 +382,7 @@
 .footer .footer3{
 	position:absolute;
 	bottom:205px;
-	left:1370px;
+	left:1277px;
 	width:140px;
 	height:133px;
 	text-align:center;
