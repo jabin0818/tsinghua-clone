@@ -1,3 +1,5 @@
 # tsinghua-clone
+仿清华大学官网的静态网站，包含了首页、学校简介、学校领导、历史沿革、登录注册页面（网页设计作业，代码不规范，没做响应式适配，宽度有问题）
 
-仿造清华大学官网的静态页面，其中包含了首页、学校简介、学校领导、历史沿革、登录注册页面，推荐使用谷歌浏览器打开：https://qingshansuiyun.github.io/tsinghua-clone/index.html
+# 预览
+https://jabin0818.github.io/tsinghua-clone/
