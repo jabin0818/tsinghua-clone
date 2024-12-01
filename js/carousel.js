@@ -4,12 +4,14 @@ const picture = [
   "img/index/carousel/3.jpg",
 ];
 
+const PICTURE_CHANGE_INTERVAL = 8000; // 轮播切换时间间隔（毫秒）
+
 window.addEventListener("load", () => {
   const main = document.querySelector(".banner_main");
   const imageWrapper = document.querySelector(".banner_image_wrapper");
-  const select = document.querySelector(".select");
-  const left = document.querySelector(".left");
-  const right = document.querySelector(".right");
+  const select = document.querySelector(".banner_select");
+  const left = document.querySelector(".banner_btn_left");
+  const right = document.querySelector(".banner_btn_right");
 
   // 初始化索引
   let index = 0;
@@ -77,13 +79,13 @@ window.addEventListener("load", () => {
   left.addEventListener("click", prevImage);
 
   // 鼠标移入停止轮播，移出开始轮播
-  let lunbo;
+  let carouselTimer;
   main.addEventListener("mouseover", () => {
-    clearInterval(lunbo);
+    clearInterval(carouselTimer);
   });
 
   main.addEventListener("mouseout", () => {
-    // lunbo = setInterval(nextImage, 8000);
+    carouselTimer = setInterval(nextImage, PICTURE_CHANGE_INTERVAL);
   });
 
   // 小圆点点击事件
@@ -95,9 +97,9 @@ window.addEventListener("load", () => {
   });
 
   // 自动轮播
-  //   lunbo = setInterval(nextImage, 8000);
-  //   images[0].classList.add("active");
-  //   dots[0].classList.add("check");
+  carouselTimer = setInterval(nextImage, PICTURE_CHANGE_INTERVAL);
+  images[0].classList.add("active");
+  dots[0].classList.add("check");
 
   // 初始化第一张图片
   changeImage();

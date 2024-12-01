@@ -55,7 +55,7 @@
     opacity: 1; /* 当前显示的图片可见 */
   }
 
-  & .select {
+  & .banner_select {
     position: absolute;
     bottom: 154px;
     height: 30px;
@@ -64,26 +64,25 @@
     justify-content: center;
     align-items: center;
     z-index: 999;
+
+    & .dot {
+      margin: 6px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: #fff;
+    }
+
+    & .dot:hover {
+      background-color: #0c82dc;
+      cursor: pointer;
+    }
+    & .dot.check {
+      background-color: var(--color-primary) !important;
+    }
   }
 
-  & .dot {
-    margin: 6px;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: #fff;
-  }
-
-  & .dot:hover {
-    background-color: #0c82dc;
-    cursor: pointer;
-  }
-
-  & .check {
-    background-color: var(--color-primary) !important;
-  }
-
-  & .btn {
+  & .banner_btn {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -96,31 +95,31 @@
     z-index: 999;
   }
 
-  & .btn:hover {
+  & .banner_btn:hover {
     background-color: rgba(12, 130, 220, 0.6);
   }
 
-  & .left {
+  & .banner_btn_left {
     left: 20px;
   }
 
-  & .right {
+  & .banner_btn_right {
     right: 20px;
   }
 
-  & .left a {
+  & .banner_btn_left a,
+  & .banner_btn_right a {
     display: block;
     width: 40px;
     height: 40px;
     border-radius: 50%;
+  }
+
+  & .banner_btn_left a {
     background: url(../img/btn_left.png) no-repeat center;
   }
 
-  & .right a {
-    display: block;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+  & .banner_btn_right a {
     background: url(../img/btn_right.png) no-repeat center;
   }
 }
@@ -277,7 +276,7 @@
   height: 60px;
 }
 
-.active {
+.active2 {
   border-bottom: var(--color-primary) 6px solid;
   color: var(--color-primary) !important;
 }
