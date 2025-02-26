@@ -6,34 +6,46 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>清华大学</title>
     <link rel="icon" href="logo.ico" />
-    <link href="css/base.css" type="text/css" rel="stylesheet" />
+    <link href="css/normalize.css" type="text/css" rel="stylesheet" />
     <link href="css/index.css" type="text/css" rel="stylesheet" />
     <link href="css/common.css" type="text/css" rel="stylesheet" />
-    <script type="text/javascript" src="js/jquery-1.8.3"></script>
+    <!-- <script type="text/javascript" src="js/jquery-1.8.3"></script> -->
     <script type="text/jscript" src="js/js.js"></script>
 </head>
 
 <body>
-    <div class="header">
+    <div id="header">
         <div class="header_logo">
             <h1>
                 <a href="index.html" title="清华大学">清华大学</a>
             </h1>
         </div>
         <div class="header_nav">
-            <ul class="nav1">
-                <li><a href="login.html"><span></span>登录</a></li>
-                <li><a href="javascript:;"><span></span>访客</a></li>
-                <li><a href="javascript:;"><span></span>校友</a></li>
-                <li><a href="javascript:;"><span></span>捐赠</a></li>
-                <li><a href="javascript:;"><span></span>新闻网</a></li>
-                <li><a href="javascript:;"><span></span>内网</a></li>
-                <li><a href="javascript:;"><span></span>邮箱</a></li>
-                <li><a href="javascript:;"><span></span>图书馆</a></li>
-                <li class="search"><input type="text" class="text1" /></li>
-
+            <ul class="small_nav">
+                <li class="small_nav_item"><a class="snia" href="javascript:;">访客</a></li>
+                <li class="small_nav_item"><a class="snia" href="javascript:;">校友</a></li>
+                <li class="small_nav_item"><a class="snia" href="javascript:;">捐赠</a></li>
+                <li class="small_nav_item"><a class="snia" href="javascript:;">人才招聘</a></li>
+                <li class="small_nav_item"><a class="snia" href="javascript:;">内网</a></li>
+                <li class="small_nav_item"><a class="snia" href="javascript:;">邮箱</a></li>
+                <li class="small_nav_item"><a class="snia" href="javascript:;">图书馆</a></li>
+                <li class="small_nav_item"><span class="divider"></span></li>
+                <li class="small_nav_item language">
+                    <a class="snia" href="javascript:;">
+                        <span class="snia_icon"></span>
+                        English
+                    </a>
+                </li>
+                <li class="small_nav_item search">
+                    <a class="snia" href="javascript:;">
+                        <span class="snia_icon"></span>
+                        <div class="search_box">
+                            <input type="text" class="search_input" />
+                        </div>
+                    </a>
+                </li>
             </ul>
-            <ul class="nav2">
+            <ul class="large_nav">
                 <li onmouseover="showSubMenu(this)" onmouseout="hideSubMenu(this)">
                     <a href="javascript:;">
                         <div class="box">
